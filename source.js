@@ -27,7 +27,7 @@ function getApi  () {
             console.log(s);
             s = s.properties;
             console.log(s);
-            swOutput.innerText += `Name: ${s.name} \nHair/Eye Color: ${hair_color}/${eye_color}\n Home: ${homeworld} `;
+            swOutput.innerText += `Name: ${s.name} \nHair/Eye Color: ${s.hair_color}/${s.eye_color}\n Birthyear: ${s.birth_year} `;
         });
     })
     
